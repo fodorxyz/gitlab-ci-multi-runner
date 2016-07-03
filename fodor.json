@@ -3,7 +3,7 @@
   "installpath": "/tmp/gitlab-ci-multi-runner",
   "provisioner": "provisioner.sh",
   "text": {
-	"complete": "If the gitlab-ci-multi-runner fails to register you can SSH in and run it manually https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/linux-repository.md"
+	"complete": "Woo, GitLab is awesome - enjoy!"
   },
   "links": [
 	{
