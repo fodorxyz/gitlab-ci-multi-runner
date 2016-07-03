@@ -1,0 +1,42 @@
+{
+  "name": "fodorxyz/gitlab-ci-multi-runner",
+  "installpath": "/tmp/gitlab-ci-multi-runner",
+  "provisioner": "provisioner.sh",
+  "text": {
+	"complete": "If the gitlab-ci-multi-runner fails to register you can SSH in and run it manually https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/linux-repository.md"
+  },
+  "links": [
+	{
+		"title": "Documentation",
+		"url": "https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/linux-repository.md"
+	}
+  ],
+  "size": {
+    "suggested": "512mb",
+    "required": "512mb"
+  },
+  "distro": "ubuntu-14-04-x64",
+  "description": "Sets up a gitlab-ci-multi-runner on a DigitalOcean droplet",
+  "keywords": ["fodor", "digitalocean", "gitlab", "ci", "continuous integration"],
+  "homepage": "https://fodor.xyz",
+  "inputs": [
+    {
+      "title": "CI Server URL",
+      "name": "CI_SERVER_URL",
+      "placeholder": "http://gitlab.example.com",
+      "type": "url"
+    },
+    {
+      "title": "Runner name",
+      "name": "RUNNER_NAME",
+      "placeholder": "fodor-runner-1",
+      "type": "string"
+    },
+    {
+      "title": "Registration token",
+      "name": "REGISTRATION_TOKEN",
+      "placeholder": "Token from https://code.siftware.com/admin/runners",
+      "type": "string"
+    }
+  ]
+}
