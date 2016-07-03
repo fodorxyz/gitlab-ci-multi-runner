@@ -23,7 +23,8 @@
     {
       "title": "CI Server URL",
       "name": "CI_SERVER_URL",
-      "placeholder": "http://gitlab.example.com",
+      "placeholder": "http://gitlab.example.com/ci",
+      "notes": "This should end with /ci"
       "type": "url"
     },
     {
