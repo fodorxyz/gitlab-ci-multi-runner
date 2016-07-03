@@ -31,12 +31,14 @@
       "title": "Runner name",
       "name": "RUNNER_NAME",
       "placeholder": "fodor-runner-1",
+      "notes": "This should be unique",
       "type": "string"
     },
     {
       "title": "Registration token",
       "name": "REGISTRATION_TOKEN",
-      "placeholder": "Token from https://code.siftware.com/admin/runners",
+      "placeholder": "xxxxxxxxx-xxxx",
+      "notes": "Token from http://gitlab.example.com/admin/runners",
       "type": "string"
     }
   ]
