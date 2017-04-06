@@ -15,7 +15,7 @@
     "suggested": "1gb",
     "required": "512mb"
   },
-  "distro": "ubuntu-14-04-x64",
+  "distro": "docker",
   "description": "Sets up a gitlab-ci-multi-runner on a DigitalOcean droplet using the Docker executor",
   "keywords": ["fodor", "digitalocean", "gitlab", "ci", "continuous integration"],
   "homepage": "https://fodor.xyz",
