@@ -35,9 +35,9 @@
       "type": "string"
     },
     {
-      "title": "Docker Image (e.g. php, ruby:2.1)",
+      "title": "Docker Image (e.g. php:7, ruby:2.1)",
       "name": "DOCKER_IMAGE",
-      "placeholder": "php",
+      "placeholder": "php:7",
       "notes": "This should be a valid publicly available docker image",
       "type": "string"
     },
