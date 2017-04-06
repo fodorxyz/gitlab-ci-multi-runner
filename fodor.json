@@ -12,11 +12,11 @@
 	}
   ],
   "size": {
-    "suggested": "512mb",
+    "suggested": "1gb",
     "required": "512mb"
   },
   "distro": "ubuntu-14-04-x64",
-  "description": "Sets up a gitlab-ci-multi-runner on a DigitalOcean droplet using the shell executor",
+  "description": "Sets up a gitlab-ci-multi-runner on a DigitalOcean droplet using the Docker executor",
   "keywords": ["fodor", "digitalocean", "gitlab", "ci", "continuous integration"],
   "homepage": "https://fodor.xyz",
   "inputs": [
@@ -32,6 +32,13 @@
       "name": "RUNNER_NAME",
       "placeholder": "fodor-runner-1",
       "notes": "This should be unique",
+      "type": "string"
+    },
+    {
+      "title": "Docker Image (e.g. php, ruby:2.1)",
+      "name": "DOCKER_IMAGE",
+      "placeholder": "php",
+      "notes": "This should be a valid publicly available docker image",
       "type": "string"
     },
     {
