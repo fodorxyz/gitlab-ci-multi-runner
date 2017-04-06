@@ -3,7 +3,7 @@
   "installpath": "/tmp/gitlab-ci-multi-runner",
   "provisioner": "provisioner.sh",
   "text": {
-	"complete": "Woo, GitLab is awesome - enjoy!"
+	"complete": "All done.  If the right info was provided, you should see the runner registered on your CI/CD Pipelines settings page"
   },
   "links": [
 	{
